@@ -18,7 +18,7 @@ export default function Login() {
     const Login = () => {
         try {
             if (username === 'dipak' && password === 'admin@123') {
-                navigation.navigate("Register");
+                navigation.navigate("Home");
                 reset();
             } else {
                 Alert.alert('Invalid Credentials');
